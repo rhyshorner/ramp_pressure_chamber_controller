@@ -1,6 +1,13 @@
 import time
 import ramping_procedure
 
+# an exmaple of using environment variables to test
+#import os
+#if os.getenv('DEVICE_ENV') == 'production':
+#    RealHydroclave
+#else:
+#    SimulatedHydroclave
+
 ramper = ramping_procedure.RampingProcedure()
 
 try:
@@ -68,7 +75,7 @@ try:
     end_pressure =  0.15
     ramp_sample_rate = 4 #seconds
     cycle_label = 10 # prints this on debug screen
-    ramper.ramp(ramp_time, start_pressure, end_pressure, cycle_label, ramp_sample_rate
+    ramper.ramp(ramp_time, start_pressure, end_pressure, cycle_label, ramp_sample_rate)
 #-------------------------------------------------------------
     # switches relays off
     ramper.ending_process()
