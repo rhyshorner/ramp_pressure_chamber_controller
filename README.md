@@ -1,7 +1,7 @@
 # ramped_pressure_controller
 controller for ramping up, holding and ramping down pressure chamber according to users script.
 
-
+![Image of hydroclave](https://octodex.github.com/images/yaktocat.png)
 
 # pi 3 click shield
     - https://www.mikroe.com/pi-3-click-shield
