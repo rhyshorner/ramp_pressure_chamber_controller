@@ -31,13 +31,6 @@ class MCP3201(object):
         self.RECEIVER_4mA = RECEIVER_4mA
         self.RECEIVER_20mA = RECEIVER_20mA
         self.pressure_ave = 0
-# setting up filtering variables
-  #      self.pressure_array = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-  #      for x in range(0,35):
-  #          self.pressure_array.pop(0)
-  #          self.pressure_array.append(self.scaled_value_to_sensor())
-  #      self.pressure_ave = sum(self.pressure_array) / len(self.pressure_array)
-        pass
 
     def readADC_MSB(self):
         """
